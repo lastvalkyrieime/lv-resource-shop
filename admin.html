@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<script src="js/admin.js"></script>
+</head>
+<body>
+<h1>Admin</h1>
+<div id="login">
+<input id="user" placeholder="Username"><br>
+<input id="pass" type="password" placeholder="Password"><br>
+<button onclick="login()">Login</button>
+</div>
+<div id="panel" style="display:none;">
+<h2>Add Product</h2>
+<input id="pname" placeholder="Nama"><br>
+<select id="pcat">
+<option>Senjata</option>
+<option>Peluru</option>
+<option>Vest</option>
+<option>Drugs</option>
+<option>Attachment</option>
+<option>Alat Rampok</option>
+</select><br>
+<input id="pprice" placeholder="Harga" type="number"><br>
+<input id="pstock" placeholder="Stok" type="number"><br>
+<textarea id="pdesc" placeholder="Deskripsi"></textarea><br>
+<button onclick="addProduct()">Tambah</button>
+
+<h2>Products</h2>
+<div id="plist"></div>
+
+<button onclick="logout()">Logout</button>
+</div>
+</body>
+</html>
