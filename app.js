@@ -1,7 +1,7 @@
 
 // LV Resource Shop - Frontend for GitHub Pages
 // IMPORTANT: replace APPSCRIPT_URL with your deployed Apps Script Web App URL
-const APPSCRIPT_URL = "REPLACE_WITH_YOUR_APPSCRIPT_WEB_APP_URL";
+const APPSCRIPT_URL = "https://script.google.com/macros/s/AKfycbxMSR6jiXTWkP6mlgAzL1Ry-WySEgUYu3jhkIM1d_LTBQNnViR_IpWPD6PcpRK4_fH5/exec";
 
 // state
 let products = [];
