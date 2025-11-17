@@ -1,4 +1,4 @@
-const APPSCRIPT_URL = "PASTE_WEB_APP_URL";
+const APPSCRIPT_URL = " https://lastvalkyrieime.github.io/lv-resource-shop/";
 
 // fetch products
 async function loadProducts(){
